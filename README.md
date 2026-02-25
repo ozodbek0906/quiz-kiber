@@ -1,0 +1,2 @@
+# quiz-makro
+quiz makroiqtisodiyot
