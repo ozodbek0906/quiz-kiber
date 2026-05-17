@@ -166,67 +166,80 @@ function startPart(idx){
 function parseQuestions(raw) {
   const parts = raw.split(/\+{4,}/);
   const qlist = [];
+  console.log('=== PARSING ===', parts.length, 'blok');
   
-  for (let block of parts) {
-    block = block.trim();
+  for (let blockIdx = 0; blockIdx < parts.length; blockIdx++) {
+    let block = parts[blockIdx].trim();
     if (!block) continue;
 
-    const lines = block.split(/\r?\n/);
-    if (lines.length === 0) continue;
+    console.log(`\nBlok ${blockIdx}:`);
 
-    // First line is the question
-    let qline = lines[0].trim();
-    if (!qline) continue;
+    // Savol matnini ==== dan oldingi qismi sifatida topish
+    const eqMatch = block.match(/^(.*?)====/s);
+    if (!eqMatch) {
+      console.log('  ❌ ==== topilmadi');
+      continue;
+    }
 
+    const questionText = eqMatch[1].trim();
+    if (!questionText) {
+      console.log('  ❌ Savol bo\'sh');
+      continue;
+    }
+
+    console.log('  ✓ Savol:', questionText.substring(0, 50));
+
+    // ==== dan boshlab qolgan qismni olish
+    // eqMatch[0] = savol + ==== bo'lgani uchun
+    const afterEqIndex = eqMatch[0].length;
+    const afterEq = block.substring(afterEqIndex);
+    
+    console.log('  Debug afterEq birinchisi:', afterEq.substring(0, 100));
+    
+    // Barcha ==== bilan bo'lish
+    const variantParts = afterEq.split(/====/);
+    
     const choices = [];
     let correctIndex = -1;
 
-    // Process remaining lines - they should be between ==== separators
-    // Each ==== marks a choice below it
-    let i = 1;
-    while (i < lines.length) {
-      const line = lines[i].trim();
+    for (let varText of variantParts) {
+      varText = varText.trim();
       
-      // Skip empty lines and look for ==== separators
-      if (line === '====' || line === '=====' || line.match(/^=+$/)) {
-        i++;
-        // Next non-empty line is the choice
-        while (i < lines.length) {
-          const choiceLine = lines[i].trim();
-          if (!choiceLine) {
-            i++;
-            continue;
-          }
-          
-          // Check if this choice is marked as correct with #
-          let isCorrect = false;
-          let choiceText = choiceLine;
-          
-          if (choiceText.startsWith('#')) {
-            isCorrect = true;
-            correctIndex = choices.length;
-          }
-          
-          // Remove all # characters from the text
-          choiceText = choiceText.replace(/#/g, '').trim();
-          // Clean up trailing semicolons if present
-          choiceText = choiceText.replace(/;\s*$/, '').trim();
-          
-          if (choiceText) {
-            choices.push(choiceText);
-          }
-          i++;
-          break;
-        }
-      } else {
-        i++;
+      // Bo'sh qatorlarni skip qilish
+      if (!varText) {
+        continue;
       }
+
+      // To'g'ri javob # bilan belgilangan
+      const isCorrect = varText.startsWith('#');
+      if (isCorrect) {
+        correctIndex = choices.length;
+      }
+
+      // # belgilarni o'chirish
+      varText = varText.replace(/#/g, '').trim();
+      // Trailing semicolon
+      varText = varText.replace(/;\s*$/, '').trim();
+
+      // Agar hali bo'sh bo'lsa, skip
+      if (!varText) {
+        continue;
+      }
+
+      choices.push(varText);
+      console.log(`    [${choices.length}] ${isCorrect ? '✓' : ' '} ${varText.substring(0, 50)}`);
     }
 
     if (choices.length > 0 && correctIndex >= 0) {
-      qlist.push({ text: qline, choices, correctIndex });
+      qlist.push({ text: questionText, choices, correctIndex });
+      console.log(`  ✓ Savol qo'shildi. Variantlar: ${choices.length}, To'g'ri: ${correctIndex}`);
+    } else {
+      console.log(`  ❌ Savol qo'shilmadi. Variantlar: ${choices.length}, To'g'ri: ${correctIndex}`);
     }
   }
+  
+  console.log('\n=== PARSING TUGADI ===');
+  console.log('Jami savollar:', qlist.length);
   return qlist;
 }
 
@@ -576,39 +589,65 @@ if (btnFullReset) {
 (async function init(){
   try{
     if (loadingEl) loadingEl.classList.remove('hidden');
+    console.log('=== INIT BOSHLANDI ===');
+    
+    console.log('📥 questions.txt yuklanmoqda...');
     const resp = await fetch('questions.txt', {cache: 'no-store'});
+    console.log('📊 Response status:', resp.status);
+    console.log('📊 Response ok:', resp.ok);
+    
     if (resp.ok){
       const raw = await resp.text();
+      console.log('✅ questions.txt yuklab olingan');
+      console.log('📏 Uzunlik:', raw.length, 'belgisi');
+      console.log('🔍 Birinchi 200 belgisi:', raw.substring(0, 200));
+      console.log('🔍 Oxirgi 200 belgisi:', raw.substring(Math.max(0, raw.length-200)));
+      
       const parsed = parseQuestions(raw);
-      console.log('questions.txt dan o\'qilgan savollar:', parsed.length, parsed.slice(0, 2));
+      console.log('✅ Parsed savollar:', parsed.length);
+      
       if (parsed && parsed.length){
         questions = parsed;
         saveQuestions(questions);
+        console.log('💾 Savollar localStorage ga saqlandi');
       }
+    } else {
+      console.log('❌ questions.txt fetch xato. Status:', resp.status);
     }
-  }catch(e){ console.error('questions.txt xato:', e); } finally { if (loadingEl) loadingEl.classList.add('hidden'); }
+  }catch(e){ 
+    console.error('❌ questions.txt xato:', e); 
+  } finally { 
+    if (loadingEl) loadingEl.classList.add('hidden'); 
+  }
 
   try{
+    console.log('📥 questions.json yuklanmoqda...');
     const resp2 = await fetch('questions.json', {cache: 'no-store'});
     if (resp2.ok){
       const data = await resp2.json();
       if (Array.isArray(data) && data.length) {
         questions = data;
         saveQuestions(questions);
+        console.log('✅ questions.json dan yuklab olingan:', data.length);
       }
     }
-  }catch(e){ /* ignore */ }
+  }catch(e){ console.log('⚠️ questions.json:', e); }
 
   const saved = loadQuestions();
   if (saved && saved.length) {
     questions = saved;
+    console.log('✅ localStorage dan yuklab olingan:', questions.length);
   } else if (!questions || !questions.length) {
     // auto-import sample
+    console.log('⚠️ Sample savollari ishlatilmoqda');
     questions = parseQuestions(SAMPLE);
     saveQuestions(questions);
   }
   allQuestions = questions.slice();
+  console.log('📊 allQuestions:', allQuestions.length);
   buildParts();
+  console.log('📊 Parts:', parts.length);
   renderPartsList();
   qTotalEl.textContent = questions.length;
+  console.log('=== INIT TUGADI ===');
 })();
