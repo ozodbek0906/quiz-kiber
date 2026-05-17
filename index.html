@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body style="user-select: none;">
+  <div class="bg-blob" aria-hidden="true"></div>
+
+  <main class="container app-shell" role="main" aria-live="polite">
+    <header class="app-header">
+      <div class="logo-wrap">
+        <h1 class="logo">Mikroiqtisodiyot Quiz</h1>
+        <button class="tohome" onclick="
+          window.location.reload();
+        ">Bosh Sahifa</button>
+        <div class="tagline"></div>
+      </div>
+      <div class="header-cta">
+        <small class="muted"></small>
+      </div>
+    </header>
+
+    <section id="home" class="screen home-screen" data-screen="home">
+      <div class="home-inner glass">
+        <h2 class="headline">Testga xush kelibsiz</h2>
+        <p class="subtitle">Pastdagi qismni tanlang — testga kirish uchun tugmani bosing</p>
+        <div id="partsWrapper" class="parts-wrapper">
+          <div id="partsList" aria-live="polite" class="parts-list"></div>
+          <div id="loading" class="loading hidden">Yuklanmoqda…</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen quiz hidden" id="quizSection" data-screen="quiz">
+      <div class="quiz-inner">
+        <div id="quizHeader" class="quiz-header">
+          <div id="partLabel" class="part-label"></div>
+          <div id="qInfo" class="q-info">Savol <span id="qIndex">1</span>/<span id="qTotal">0</span></div>
+          <div id="scorePreview" class="score-preview">Ball: <span id="scorePreviewVal">0</span></div>
+        </div>
+
+        <div id="questionBox" class="question-box glass">
+          <div id="questionText">Savol yuklanmadi.</div>
+          <form id="choicesForm" class="choices-form"></form>
+        </div>
+
+        <div class="quiz-actions"><!-- navigation removed: auto-advance on selection --></div>
+      </div>
+    </section>
+    <section id="resultScreen" class="hidden">
+      <div class="result-card">
+        <h2>Test natijasi</h2>
+        <p id="resultPartLabel">Qism: <strong>0</strong></p>
+        <p>Savollar soni: <strong id="resTotal">0</strong></p>
+        <p>To'g'ri javoblar: <strong id="resCorrect">0</strong></p>
+        <p>Noto'g'ri javoblar: <strong id="resWrong">0</strong></p>
+        <p>Foiz: <strong id="resPercent">0%</strong></p>
+        <div class="result-actions">
+          <button id="btnRestartPart">Qismni qayta boshlash</button>
+          <button id="btnBackToParts">Bosh sahifa</button>
+          <button id="btnShowDetails">Natijalarni ko'rish</button>
+          <button id="btnNextPart">Keyingi qismga o'tish</button>
+          <button id="btnExportPDF" class="primary">Natijani PDF ga yuklash</button>
+        </div>
+        <div id="resReview" class="hidden" style="margin-top:12px"></div>
+      </div>
+    </section>
+    <br>
+    <footer>
+      <small>Made by 
+        <a href="https://t.me/anvarov1c_xd" class="author">Ozodbek_0906 </a>
+      </small>
+      <span>quiz-v2.1</span>
+    </footer>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

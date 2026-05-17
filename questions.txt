@@ -1,0 +1,2760 @@
+TCP/IP protokollari steki nechta sathdan iborat?
+====
+#4
+====
+3
+====
+5
+====
+7
+++++
+
+ TCP/IP protokollari stekining birnchi sathi sathi qanday nomlanadi?
+====
+#tarmoq interfeyslari sathi
+====
+transport sathi
+====
+tarmoq sathi
+====
+amaliy sath
+++++
+
+ TCP/IP protokollari stekining ikkinchi sathi sathi qanday nomlanadi?
+====
+tarmoq interfeyslari sathi
+====
+transport sathi
+====
+#tarmoq sathi
+====
+amaliy sath
+++++
+
+ TCP/IP protokollari stekining uchinchi sathi sathi qanday nomlanadi?
+====
+tarmoq interfeyslari sathi
+====
+#transport sathi
+====
+tarmoq sathi
+====
+amaliy sath
+++++
+
+ TCP/IP protokollari stekining to’rtinchi sathi sathi qanday nomlanadi?
+====
+tarmoq interfeyslari sathi
+====
+transport sathi
+====
+tarmoq sathi
+====
+#amaliy sath
+++++
+
+ IPv4 manzillari nechta sinfdan iborat?
+====
+#5 ta
+====
+6 ta
+====
+4 ta
+====
+7 ta
+++++
+
+ A sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?
+====
+#Dastlabki bit 0 ga teng: 1.0.0.0 dan 127.255.255.255 gacha
+====
+Dastlabki bit 10 ga teng: 1.0.0.0 dan 127.255.255.255 gacha
+====
+Dastlabki bit 0 ga teng: 1.0.0.0 dan 128.0.0.0 gacha
+====
+Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha
+++++
+
+ B sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?
+====
+#Dastlabki bit 10 ga teng: 128.0.0.0 dan 191.255.255.255 gacha
+====
+Dastlabki bit 10 ga teng: 128.0.0.0 dan 192.0.0.0 gacha
+====
+Dastlabki bit 110 ga teng: 127.255.255.255 dan 192.0.0.0 gacha
+====
+Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha
+++++
+
+ C sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?
+====
+#Dastlabki bit 110 ga teng: 192.0.0.0 dan 223.255.255.255 gacha
+====
+Dastlabki bit 110 ga teng: 192.0.0.0 dan 243.255.255.255 gacha
+====
+Dastlabki bit 110 ga teng: 191.255.255.255 dan 243.0.0.0 gacha
+====
+Dastlabki bit 10 ga teng: 192.0.0.0 dan 223.255.255.255 gacha
+++++
+
+ A sinfga tegishli tarmoqlarda manzillar sonini qancha?
+====
+2^8
+====
+2^16
+====
+#2^24
+====
+2^4
+++++
+
+ B sinfga tegishli tarmoqlarda manzillar sonini qancha?
+====
+2^8
+====
+#2^16
+====
+2^24
+====
+2^4
+++++
+
+C sinfga tegishli tarmoqlarda manzillar sonini qancha?
+====
+#2^8
+====
+2^16
+====
+2^24
+====
+2^4
+++++
+
+ IP manzillar sinflaridan foydalanib 192.9.7.5 manzilini tarmoq va xost raqamlariga ajrating?
+====
+#tarmoq raqami 192.9.7.0; xost raqami 0.0.0.5
+====
+tarmoq raqami 192.9.0.0; xost raqami 0.0.7.5
+====
+tarmoq raqami 192.9.6.0; xost raqami 0.0.1.5
+====
+tarmoq raqami 192.0.0.0; xost raqami 0.9.6.5
+++++
+
+ IP manzillar sinflaridan foydalanib 62.76.9.17 manzilini tarmoq va xost raqamlariga ajrating?
+====
+#tarmoq raqami 62.0.0.0; xost raqami 0.76.9.17
+====
+tarmoq raqami 62.76.0.0; xost raqami 0.0.9.12
+====
+tarmoq raqami 62.76.9.0; xost raqami 0.0.0.12
+====
+tarmoq raqami 62.76.1.1; xost raqami 0.0.8.16
+++++
+
+A sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?
+====
+#255.0.0.0
+====
+255.255.255.0
+====
+255.255.0.0
+====
+255.255.255.255
+++++
+
+ B infga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?
+====
+255.0.0.0
+====
+255.255.255.0
+====
+#255.255.0.0
+====
+255.255.255.128
+++++
+
+ C sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?
+====
+255.0.0.0
+====
+#255.255.255.0
+====
+255.255.0.0
+====
+255.255.255.192
+++++
+
+ 215.17.125.177 manzil va 255.255.255.240 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 215.17.125.176; xost raqami 0.0.0.1
+====
+tarmoq raqami 215.17.125.0; xost raqami 0.0.0.177
+====
+tarmoq raqami 215.17.125.170; xost raqami 0.0.0.7
+====
+tarmoq raqami 215.17.125.162; xost raqami 0.0.0.15
+++++
+
+67.38.173.245 manzil va 255.255.240.0 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 67.38.160.0; xost raqami 0.0.13.245
+====
+tarmoq raqami 67.38.173.0; xost raqami 0.0.0.245
+====
+tarmoq raqami 67.38.158.245; xost raqami 0.0.15.245
+====
+tarmoq raqami 67.38.170.245; xost raqami 0.0.3.245
+++++
+
+192.168.74.126 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 192.168.74.64; xost raqami 0.0.0.62
+====
+tarmoq raqami 192.168.74.0; xost raqami 0.0.0.126
+====
+tarmoq raqami 192.168.74.120; xost raqami 0.0.0.6
+====
+tarmoq raqami 192.168.74.63; xost raqami 0.0.0.63
+++++
+
+192.168.74.130 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 192.168.74.128; xost raqami 0.0.0.4
+====
+tarmoq raqami 192.168.74.64; xost raqami 0.0.0.66
+====
+tarmoq raqami 192.168.74.120; xost raqami 0.0.0.10
+====
+tarmoq raqami 192.168.74.63; xost raqami 0.0.0.67
+++++
+
+ 192.168.74.215 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 192.168.74.192; xost raqami 0.0.0.23
+====
+tarmoq raqami 192.168.74.64; xost raqami 0.0.0.151
+====
+tarmoq raqami 192.168.74.120; xost raqami 0.0.0.95
+====
+tarmoq raqami 192.168.74.128; xost raqami 0.0.0.87
+++++
+
+192.168.74.167 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?
+====
+#tarmoq raqami 192.168.74.128; xost raqami 0.0.0.39
+====
+tarmoq raqami 192.168.74.64; xost raqami 0.0.0.103
+====
+tarmoq raqami 192.168.74.120; xost raqami 0.0.0.47
+====
+tarmoq raqami 192.168.74.63; xost raqami 0.0.0.104
+++++
+
+Nuqtalar o’rniga mos keluvchi so’zni toping. Oxirgi tugunlarni tranizt tugunlar tarmog’i orqali ulash … deb ataladi?
+====
+kommutatsiya
+====
+inkapsulyatsiya
+====
+multiplekslash
+====
+#marshrutlash
+++++
+
+Kompyuter tizimlarida abonentlarni kommutatsiyalashning nechta xili qo’llaniladi?
+====
+#2
+====
+4
+====
+5
+====
+1
+++++
+
+Kompyuter tizimlarida kompyuterlarni adreslash qanday amalga oshirilishi mumkin?
+====
+#uchta har-xil adreslash chizmalari asosida
+====
+ikkita har-xil adreslash chizmalari asosida
+====
+faqat simvolli adreslash chizmasi asosida
+====
+apparat adreslash chizmasi asosida
+++++
+
+Quyida keltirilgan kompyuter tarmoqlarining qaysi biri avval paydo bo’lgan?
+====
+#global kompyuter tarmoqlari
+====
+lokal kompyuter tarmoqlari
+====
+kampuslar tarmog’i
+====
+korporativ tarmoqlar
+++++
+
+Kompyuter tizimlarida ikkilik sonlarni kodlashning qaysi xillari qo’llaniladi?
+====
+#potentsialli va impulsli
+====
+bir qutbga ega potentsialli
+====
+faqat impulsli
+====
+ko’p qutbga ega potentsialli
+++++
+
+Kompyuterning ketma-ket porti orqali uzatilayotgan axborotni sinxronlash qanday amalga oshiriladi?
+====
+#«Start» va «Stop» signallari yordamida
+====
+paritet razryadi yordamida
+====
+takt impulslari yordamida
+====
+apparat sathida
+++++
+
+Operatsion tizimning qaysi funktsiyasi redirektor funktsiyalariga tegishli bo’ladi?
+====
+#so’rovni anglash va uzoqdagi kompyuterga yo’naltirish
+====
+tashqi qurilmalarga ulanishni boshqarish
+====
+displeyga axborotlarni chiqarib berishni tashkil qilish
+====
+uzilishlarni boshqarish
+++++
+
+To’rtta bir-biri bilan bog’langan bog’lamlar strukturasi (kvadrat shaklida) qaysi topologiya turiga mansub?
+====
+#Xalqa
+====
+Yulduz
+====
+To’liq bog’lanishli
+====
+Yacheykali
+++++
+
+Ketma-ket bir-biri bilan bog’langan 3 ta bog’lamlar (oxiri boshi bilan bog’lanmagan) strukturasi qaysi topologiya turiga tegishli.?
+====
+#Umumiy shina
+====
+Xalqa
+====
+To’liq bog’lanishli
+====
+Yulduz
+++++
+
+Kompyuter tizimlarida ma’lumotlarni uzatish ishonchliligini oshirish uchun nima qilinadi?
+====
+#kontrol summani xisoblash bilan
+====
+ma’lumotni bir necha marta uzatish bilan
+====
+axborotni ishonchliligini tekshirishning majoritar usulini
+====
+maxsus apparat-programma vositalari yordamida
+++++
+
+Qaysi topologiya birgalikda foydalanilmaydigan muhitni qo’llamasligi mumkin?
+====
+#to’liq bog’lanishli
+====
+xalqa
+====
+yulduz
+====
+umumiy shina
+++++
+
+Kompyuterning tashqi interfeysi deganda nima tushuniladi?
+====
+#kompyuter bilan tashqi qurilmani bog’lovchi simlar va ular orqali axborot almashinish qoidalari to’plamlari
+====
+tashqi qurilmani kompyuterga bog’lashda ishlatiladigan ulovchi simlar
+====
+kompyuterning tashqi portlari.
+====
+tashqi qurilma bilan kompyuter o’rtasida axborot almashinish qoidalari to’plami
+++++
+
+Uchta o’zaro bog’langan bog’lamlardan iborat tuzilma (uchburchak shaklida) topologiyaning qaysi turiga tegishli?
+====
+#To’liq bog’lanishli
+====
+Umumiy shina
+====
+Yulduz
+====
+Yacheykali
+++++
+
+Qanday topologiyaning xususiy xoli umumiy shina xisoblanadi?
+====
+#Yulduz
+====
+To’liq bog’lanishli
+====
+Xalqa
+====
+Yacheykali
+++++
+
+Topologiyalardan qaysi biri ishonchliligi yuqori hisoblanadi?
+====
+Yulduz
+====
+Xalqa
+====
+#Аralash
+====
+Umumiy shina
+++++
+
+MAC sathi qanday vazifani bajaradi?
+====
+#uzatish muhitiga murojaat qilishni boshqarish
+====
+stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish
+====
+bitlar sathida axborot uzatishni boshqarish
+====
+bloklar sathida axborot uzatishni boshqarish
+++++
+
+LLC sathi qanday vazifani bajaradi?
+====
+#stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish
+====
+bitlar sathida axborot uzatishni boshqarish
+====
+bloklar sathida axborot uzatishni boshqarish
+====
+uzatish muhitiga murojaat qilishni boshqarish
+++++
+
+Stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish vazifasini qaysi sath bajaradi?
+====
+#LLC sathi
+====
+Fizik sath
+====
+Tarmoq sathi
+====
+MAC sathi
+++++
+
+Uzatish muhitiga murojaat qilishni boshqarish vazifasini qaysi sath bajaradi?
+====
+#MAC sathi
+====
+Fizik sath
+====
+Tarmoq sathi
+====
+LLC sathi
+++++
+
+l0Base-2 segmentining uzunligi ko’pi bilan qancha bo’lishi mumkin?
+====
+#185 metr
+====
+400 metr
+====
+200 metr
+====
+500 metr
+++++
+
+O’ralma juftlik kabeli simlarini, uning konnektorlariga ulashning necha xil variantlari mavjud?
+====
+#2
+====
+3
+====
+4
+====
+1
+++++
+
+Ethernet tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?
+====
+#CSMA/CD
+====
+CSTK/CE
+====
+CSQE/NQ
+====
+CSTK/QL
+++++
+
+Ethernet da kommutatsiyalashning qaysi xilidan foydalaniladi?
+====
+#paketlarni deytagrammali kommutatsiyalash
+====
+paketlarni virtual kanal orqali uzatish
+====
+vaqtni taqsimlash asosida kanallarni kommutatsiyalash
+====
+chastotali multiplekslash asosida kanallarni kommutatsiyalash
+++++
+
+Optik tolali Ethernet tarmog’ining maksimal uzunligi qanday?
+====
+2740 m
+====
+500 m
+====
+#5000 m
+====
+2500 m
+++++
+
+100Base-TX spetsifikatsiyasi qaysi texnologiyaga tegishli?
+====
+#Fast Ethernet
+====
+Ethernet
+====
+Gigabit Ethernet
+====
+FDDI
+++++
+
+Ethernet texnologiyasi tarmoqlarida ma’lumotlar kadri qanday preambulaga ega?
+====
+00001111
+====
+11110000
+====
+#10101010
+====
+11001100
+++++
+
+Signalni to’liq aylanib chiqish vaqti –PDV ning maksimal qiymati qanday?
+====
+576 bitli interval
+====
+#512 bitli interval
+====
+600 bitli interval
+====
+624 bitli interval
+++++
+
+PDV deganda nima tushuniladi?
+====
+#Signalni to’liq aylanib chiqish vaqti
+====
+Kadrlar orasidagi masofaning qisqarishi
+====
+Kadrlar orasidagi masofa
+====
+Bitli interval
+++++
+
+Fast Ethernet texnologiyasi spetsifikatsiyalari qaysi komitet tarkibida ishlab chiqilgan?
+====
+#802.3
+====
+802.2
+====
+802.1
+====
+802.5
+++++
+
+Ethernet texnologiyasida koaksial kabelining ma’lumotlarni uzatish tezligi qanday?
+====
+#10 Mbit/s
+====
+1 Mbit/s
+====
+100 Mbit/s
+====
+1000 Mbit/s
+++++
+
+Fast Ethernet texnologiyasida o’ralma juftlik kabelining ma’lumotlarni uzatish tezligi qanday?
+====
+#100 Mbit/s
+====
+10 Mbit/s
+====
+1 Mbit/s
+====
+1000 Mbit/s
+++++
+
+Lokal tarmoqlarda keng tarqalgan topologiya turi qaysi?
+====
+#Yulduz
+====
+Xalqa
+====
+To’liqbog’langan
+====
+Umumiy shina
+++++
+
+ 100Base-TX spetsifikatsiya qaysi texnologiyaga tegishli?
+====
+#Fast Ethernet
+====
+Ethernet
+====
+Gigabit Ethernet
+====
+10G Ethernet
+++++
+
+ 1000Base-SX spetsifikatsiya qaysi texnologiyaga tegishli?
+====
+#Gigabit Ethernet
+====
+Fast Ethernet
+====
+Ethernet
+====
+10G Ethernet
+++++
+
+10Base-T standartida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?
+====
+#2
+====
+4
+====
+1
+====
+3
+++++
+
+100Base-TX spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?
+====
+#2
+====
+4
+====
+1
+====
+3
+++++
+
+Kompyuterni kontsentrator yoki kommutator bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?
+====
+#To’g’ridan-to’g’ri ulangan varianti
+====
+Teskari ulangan varianti
+====
+Krossover varianti
+====
+Kesishgan holda ulangan variant
+++++
+
+Kompyuterni kompyuter bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?
+====
+#Krossover varianti
+====
+Teskari ulangan varianti
+====
+To’g’ridan-to’g’ri ulangan varianti
+====
+Qo’shimcha ulangan varianti
+++++
+
+Tarmoq adapterining kadrlarni kompyuterdan uzatib beruvchi ulanish nuqtasi (kontakti) qanday belgilanadi?
+====
+#Tx
+====
+Rx
+====
+Px
+====
+Kx
+++++
+
+Tarmoq adapterining kadrlarni kompyuterga qabul qilib oluvchi ulanish nuqtasi (kontakti) qanday belgilanadi?
+====
+#Rx
+====
+Tx
+====
+Px
+====
+Kx
+++++
+
+Ethernet texnologiyasi qaysi mantiqiy topologiya asosida qurilgan?
+====
+#umumiy shina
+====
+xalqa
+====
+yulduz
+====
+to’liq bog’lanishli topologiya
+++++
+
+Fast Ethernet texnologiyasida qaysi turdagi kabel tizimlaridan foydalanilgan?
+====
+#ko’pmodali optik tolali, 5 va undan yuqori kategoriyali o’ralma juftlik
+====
+bittamodali optik tolali , 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+====
+ingichka koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+====
+yo’g’on koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+++++
+
+Kadrlar ketma-ketligini kontsentratorlar orqali o’tishi natijasida, kadrlar orasidagi masofaning qisqarishi – PVV,ko’pi bilan qancha bo’lishi mumkin?
+====
+#49 bitli interval
+====
+32 bitli interval
+====
+30 bitli interval
+====
+64 bitli interval
+++++
+
+MАC sath osti sathi OSI modelining qaysi sathiga tegishli?
+====
+#kanal sathiga
+====
+tarmoq sathiga
+====
+fizik sathiga
+====
+transport sathiga
+++++
+
+Ingichka koaksial kabel asosida qurilgan tarmoqda kompyuterlar orasidagi eng kichik masofa qanday bo’lishi kerak?
+====
+#1 m
+====
+3 m
+====
+2 m
+====
+5 m
+++++
+
+100Base-TX spetsifikatsiyasi qanday fizik topologiyaga ega?
+====
+#ierarxik yulduz
+====
+yulduz
+====
+umumiy shina
+====
+xalqa
+++++
+
+100Base-TX spetsifikatsiyasi qanday mantiqiy topologiyaga ega?
+====
+#umumiy shina
+====
+yulduz
+====
+ierarxik yulduz
+====
+xalqa
+++++
+
+I va II sinf Fast Ethernet texnologiyasi takrorlagichlari nimasi bilan farq qiladi?
+====
+#Fizik sathiga tegishli mavjud portlari bilan
+====
+Kadrlarni uzatish usuli bilan
+====
+Ma’lumotlarni uzatish tezligi bilan
+====
+Portlarning soni bilan
+++++
+
+Fast Ethernet texnologiyasida RJ-45 ulagichning qaysi kontaktlari ishlatiladi?
+====
+#1,2,3,6
+====
+3,4,5,6
+====
+1,2,3,4
+====
+5,6,7,8
+++++
+
+Ethernet texnologiyasi nechta standartga ega?
+====
+4
+====
+#3
+====
+2
+====
+6
+++++
+
+Fast Ethernet texnologiyasi nechta spetsifikatsiyaga ega?
+====
+#3
+====
+4
+====
+2
+====
+6
+++++
+
+100Base-T4 spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?
+====
+#4
+====
+2
+====
+1
+====
+6
+++++
+
+Umumiy shina topologiyali lokal tarmoqlarda kontsentratorlar qanday?
+====
+#Kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi
+====
+Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi
+====
+Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi
+====
+Tarmoqning ikki segmentini o’zaro bog’laydi
+++++
+
+Qaysi kontsentrator kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi?
+====
+#Ethernet kontsentratori
+====
+Token Ring kontsentratori
+====
+FDDI kontsentratori
+====
+Frame Relay kontsentrator
+++++
+
+Qaysi kontsentrator kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi?
+====
+#Token Ring kontsentratori
+====
+Ethernet kontsentratori
+====
+FDDI kontsentratori
+====
+Frame Relay kontsentratori
+++++
+
+To’g’ridan-to’g’ri ulangan UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?
+====
+#Yashil, oq-yashil
+====
+Ko’k, oq-ko’k
+====
+Qizg’ish-sariq, oq - qizig’ish-sariq
+====
+Jigar rang, oq-jigar rang
+++++
+
+To’g’ridan-to’g’ri ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?
+====
+#Qizg’ish-sariq, oq - qizig’ish-sariq
+====
+Ko’k, oq-ko’k
+====
+Yashil, oq-yashil
+====
+Jigar rang, oq-jigar rang
+++++
+
+Kesishgan holatda ulangan (krossover) UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?
+====
+#Qizg’ish-sariq, oq - qizig’ish-sariq
+====
+Ko’k, oq-ko’k
+====
+Yashil, oq - yashil
+====
+Jigar rang, oq-jigar rang
+++++
+
+Krossover ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?
+====
+#Yashil, oq-yashil
+====
+Ko’k, oq-ko’k
+====
+Sariq, oq-sariq
+====
+Jigar rang, oq-jigar rang
+++++
+
+MSAU qanday vazifani bajaradi?
+====
+#faol bo’lmagan kontsentrator vazifasini
+====
+ko’prikning vazifasini
+====
+faol kontsentratorning vazifasini
+====
+takrorlovchi vazifasini
+++++
+
+FDDI texnologiyasida buzilmasdan ishlash qobiliyatini oshirish qanday ta’minlangan?
+====
+#ikkita optik tolali xalqani hosil qilish asosida
+====
+axborotni keragidan ortiq xolatli kodlar bilan kodlash usulini qo’llash bilan
+====
+xatolarni to’g’irlash qurilmalaridan foydalanish asosida
+====
+intellektual kontsentratorlardan foydalanish asosida
+++++
+
+FDDI texnologiyasining fizik sathi nachta sath osti sathlariga bo’linadi?
+====
+#2
+====
+4
+====
+3
+====
+5
+++++
+
+FDDI texnologiyasida, xalqalarga ko’pi bilan nechta kompyuter ulanishi mumkin?
+====
+#500
+====
+700
+====
+900
+====
+100
+++++
+
+FDDI tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?
+====
+#marker asosida murojaat qilishning tezkor usuli
+====
+CSMA/CD
+====
+marker asosida murojaat qilish usuli
+====
+CSTK/QL
+++++
+
+Token Ring tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?
+====
+#marker asosida murojaat qilish usuli
+====
+marker asosida murojaat qilishning tezkor usuli
+====
+CSMA/CD
+====
+CSTK/QL
+++++
+
+Keltirilgan texnologiyalarning qaysi birlari lokal tarmoq texnologiyalariga mansub?
+====
+#FDDI, Token Ring
+====
+Frame Relay, Token Ring
+====
+Ethernet, Internet
+====
+ATM, TCP/IP
+++++
+
+FDDI texnologiyasida stantsiyalar orasidagi eng uzoq masofa kanday bo’lishi mumkin?
+====
+#2000m.
+====
+1000 m.
+====
+2500m.
+====
+500 m
+++++
+
+Xalqa topologiyali lokal tarmoqlarda kontsentratorlar qanday funktsiyani bajaradi?
+====
+#Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi
+====
+Kompyuter tomonidan uzatilgan ma’lumotni barcha kompyuterlarga yo’naltiradi
+====
+Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi
+====
+Tarmoqning ikki segmentini o’zaro bog’laydi
+++++
+
+FDDI tarmog’idama’lumotlarni uzatishda qanday murojat kilish usuli qo’llaniladi?
+====
+#Tezlashtirilgan markerli murojaat qilish usuli
+====
+CSMA/CD
+====
+Markerli murojaat qilish usuli
+====
+CSTK/QL
+++++
+
+Token Ring tarmog’ida ma’lumotlarni uzatishda qanday murojat qilish usuli qo’llaniladi?
+====
+#Markerli murojaat qilish usuli
+====
+Tezlashtirilgan markerli murojaat qilish usuli
+====
+CSMA/CD
+====
+CSTK/QL
+++++
+
+FDDI tarmog’ining qaysi elementlari buzilmay ishlash qobiliyatini ta’minlaydi?
+====
+#Ma’lumotlarni uzatish uchun ikkita xalqaning mavjudligi
+====
+Kontsentratorlar
+====
+А sinfga tegishli stantsiyalar
+====
+Kommutatorlar
+++++
+
+Token Ring texnologiyasi kadrining maksimal uzunligi nimaga bog’liq?
+====
+#xalqaning ishlash tezligiga
+====
+ma’lumotlarni uzatish ishonchliligiga
+====
+xalqadagi kompyuterlar soniga
+====
+xalqaning uzunligiga
+++++
+
+Simsiz tarmoqlar standartlari qaysi komitet tarkibida ishlab chiqilmoqda?
+====
+#802.11
+====
+802.7
+====
+802.6
+====
+802.12
+++++
+
+Xozirgi paytda ko’p ishlatiladigan, 802.11 standartiga tegishli spetsifikatsiyani ko’rsating?
+====
+#a, b, g, n, ac
+====
+a, b, d
+====
+a, b, c
+====
+a, b, e
+++++
+
+802.11 spetsifikatsiyasi simsiz lokal tarmog’i diametrining chegaralari qanday?
+====
+#100 - 300 m
+====
+50 - 100 m
+====
+300 – 400 m
+====
+100 -200 m.
+++++
+
+Keltirilgan qisqartmalarning qaysi biri bazaviy yoki asosiy xizmatlar to’plami ko’rsatiladigan tarmoqni anglatadi?
+====
+#BSS
+====
+STA
+====
+ESS
+====
+DSS
+++++
+
+Keltirilgan qisqartmalarning qaysi biri kengaytirilgan (qo’shimcha) xizmatlar to’plamini ko’rsatadigan tarmoqni anglatadi?
+====
+#ESS
+====
+BSS
+====
+STA
+====
+DSS
+++++
+
+BSS deganda nima tushuniladi?
+====
+#Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq
+====
+Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq
+====
+Yulduz topologiyasidagi tarmoq
+====
+Halqa topologiyasidagi tarmoq
+++++
+
+ESS deganda nima tushuniladi?
+====
+#Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq
+====
+Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq
+====
+Yulduz topologiyasidagi tarmoq
+====
+Xalqa topologiyasidagi tarmoq
+++++
+
+802.11g spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#54 Mbit/s
+====
+2 Mbit/s
+====
+11 Mbit/s
+====
+1 Mbit/s
+++++
+
+802.11b spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#11 Mbit/s
+====
+54 Mbit/s
+====
+600 Mbit/s
+====
+1 Mbit/s
+++++
+
+802.11 spetsifikatsiyasi qanday ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#2 Mbit/s
+====
+1 Mbit/s
+====
+11 Mbit/s
+====
+54 Mbit/s
+++++
+
+802.11b spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#11 Mbit/s
+====
+2 Mbit/s
+====
+1 Mbit/s
+====
+54 Mbit/s
+++++
+
+802.11n spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#600 Mbit/s
+====
+54 Mbit/s
+====
+11 Mbit/s
+====
+6.7 Gbit/s
+++++
+
+802.11ac spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?
+====
+#6.7 Gbit/s
+====
+600 Mbit/s
+====
+54 Mbit/s
+====
+11 Mbit/s
+++++
+
+802.11 standartiga tegishli topologiyalarning qaysi turlari mavjud?
+====
+#BSS, ESS
+====
+Xalqa,to’liq bog’lanishli
+====
+Umumiy shina, yulduz
+====
+BSS, DSS
+++++
+
+Tarmoqni fizik strukturalashda qaysi qurilma ishlatiladi?
+====
+#takrorlovchi (kontsentrator)
+====
+kommutator
+====
+ko’prik
+====
+shlyuz
+++++
+
+Qaysi qurilma tarmoqning mantiqiy strukturasini o’zgartirishi mumkin?
+====
+#ko’prik, marshrutizator, kommutator va shlyuz
+====
+faqat kommutator
+====
+takrorlovchi
+====
+kontsentrator
+++++
+
+Ethernet kontsentratori qanday vazifani bajaradi?
+====
+#kompyuterdan kelayotgan axborotni qolgan barcha kompyuterga yo’naltirib beradi
+====
+kompyuterdan kelayotgan axborotni boshqa bir kompyuterga yo’naltirib beradi
+====
+kompyuterdan kelayotgan axborotni xalqa bo’ylab joylashgan keyingi kompyuterga
+====
+tarmoqning ikki segmentini bir biriga ulaydi
+++++
+
+Kompyuter tarmog’ining fizik strukturalash nima maqsadda amalga oshiriladi?
+====
+#Tarmoq diametrini oshirish uchun
+====
+Unumdorlikni oshirish uchun
+====
+Internetga ulanish uchun
+====
+Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun
+++++
+
+Kompyuter tarmog’ining mantiqiy strukturalash nima maqsadda amalga oshiriladi?
+====
+Internetga ulanish uchun
+====
+Tarmoq diametrini oshirish uchun
+====
+Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun
+====
+#Trafikni lokallashtirish uchun
+++++
+
+Kommutator ko’prikdan nimasi bilan farq qiladi?
+====
+#Kadrlarni parallel qayta ishlashda
+====
+Tarmoqqa ulanish usulida
+====
+Kadrlarni uzatish algoritmida
+====
+Kadrlarni uzatish usulida
+++++
+
+OSI modelida nechta sath mavjud?
+====
+#7
+====
+4
+====
+5
+====
+3
+++++
+
+OSI modelining to’rtinchi sathi qanday nomlanadi?
+====
+#Transport sathi
+====
+Аmaliy sath
+====
+Seanslar sathi
+====
+Taqdimlash sathi
+++++
+
+OSI modelining beshinchi sathi qanday nomlanadi?
+====
+#Seanslar sathi
+====
+Аmaliy sath
+====
+Fizik sath
+====
+Transport sathi
+++++
+
+OSI modelining birinchi sathi qanday nomlanadi?
+====
+#Fizik sath
+====
+Seanslar sathi
+====
+Transport sathi
+====
+Taqdimlash sathi
+++++
+
+OSI modelining ikkinchi sathi qanday nomlanadi?
+====
+#Kanal sathi
+====
+Аmaliy sathi
+====
+Fizik sath
+====
+Seanslar sathi
+++++
+
+OSI modelining uchinchi sathi qanday nomlanadi?
+====
+#Tarmoq sathi
+====
+Аmaliy sath
+====
+Kanal sathi
+====
+Taqdimlash sathi
+++++
+
+OSI modelining oltinchi sathi qanday nomlanadi?
+====
+#Taqdimlash sathi
+====
+Аmaliy sath
+====
+Seanslar sathi
+====
+Kanal sathi
+++++
+
+ OSI modelining ettinchi sathi qanday nomlanadi?
+====
+#Аmaliy sath
+====
+Seanslar sathi
+====
+Transport sathi
+====
+Taqdimlash sathi
+++++
+
+OSI modelining qaysi sathlari tarmoqqa bog’liq sathlar hisoblanadi?
+====
+#fizik, kanal va tarmoq sathlari
+====
+seans va amaliy sathlar
+====
+amaliy va taqdimlash sathlari
+====
+transport va seans sathlari
+++++
+
+OSI modelining tarmoq sathi vazifalari keltirilgan qurilmalarning qaysi birida bajariladi?
+====
+#Marshrutizator
+====
+Ko’prik
+====
+Tarmoq adapter
+====
+Kontsentrator
+++++
+
+OSI modelining kanal sathi orqali uzatiladigan ma’lumotlarning birligi qanday nomlanadi?
+====
+Kadr
+====
+Paket
+====
+#Kadr
+====
+Oqim
+++++
+
+Elektr signallarini qabul qilish va uzatish vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Fizik sath
+====
+Kanal sathi
+====
+Tarmoq sathi
+====
+Transport sathi
+++++
+
+Ma’lumotlarni uzatishning optimal marshrutlarini aniqlash vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Tarmoq sathi
+====
+Kanal sathi
+====
+Аmaliy sath
+====
+Transport sathi
+++++
+
+Mijozlar dasturlari bilan o’zaro muloqot vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Аmaliy sath
+====
+Kanal sathi
+====
+Tarmoq sathi
+====
+Fizik sath
+++++
+
+Keltirilgan protokollarning qaysilari tarmoq sathi protokollariga mansub?
+====
+#IP, IPX
+====
+NFS, FTP
+====
+Ethernet, FDDI
+====
+TCP,UDP
+++++
+
+Keltirilgan protokollarning qaysilari transport sathi protokollariga mansub?
+====
+#TCP,UDP
+====
+NFS, FTP
+====
+IP, IPX
+====
+Ethernet, FDDI
+++++
+
+Keltirilgan protokollarning qaysilari amaliy sathi protokollariga mansub?
+====
+#NFS, FTP
+====
+TCP,UDP
+====
+10Base-T, 100Base-TX
+====
+IP, IPX
+++++
+
+Keltirilgan vazifalardan qaysi biri umumiy kommutatsiyalash vazifasiga tegishli emas?
+====
+#axborotni indekslash
+====
+oqimlarni xarakatlantirish
+====
+multipleksirlash va demultipleksirlash
+====
+marshrutizatsiyalash
+++++
+
+OSI modelining fizik sathi qanday funktsiyalarni bajaradi?
+====
+#Elektr signallarini uzatish va qabul qilish
+====
+Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+====
+Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Klient dasturlari bilan o’zaro muloqotda bo’lish
+++++
+
+OSI modelining kanal sathi qaysi funktsiyalarni bajaradi?
+====
+#Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+====
+Klient dasturlari bilan o’zaro muloqotda bo’lish
+====
+Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Ma’lumotlarni kodlash va shifrlash
+++++
+
+OSI modelining tarmoq sathi qanday funktsiyalarni bajaradi?
+====
+#Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash
+====
+Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+====
+Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish
+====
+Эlektr signallariniuzatish va qabul qilish
+++++
+
+OSI modelining transport sathi qanday funktsiyalarni bajaradi?
+====
+#Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish
+====
+Klient dasturlari bilan o’zaro muloqotda bo’lish
+====
+Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash
+++++
+
+OSI modeliningseanslar sathi qanday funktsiyalarni bajaradi?
+====
+#Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Klient dasturlari bilan o’zaro muloqotda bo’lish
+====
+Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+====
+Эlektr signallariniuzatish va qabul qilish
+++++
+
+OSI modelining taqdimlash sathi qanday funktsiyalarni bajaradi?
+====
+#Ma’lumotlarni kodlash va shifrlash
+====
+Klient dasturlari bilan o’zaro muloqotda bo’lish
+====
+Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Эlektr signallariniuzatish va qabul qilish
+++++
+
+Аloqa kanaliga va uzatish muhitiga ulanishni boshqarish vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Kanal sathi
+====
+Fizik sath
+====
+Tarmoq sathi
+====
+Transport sathi
+++++
+
+Ma’lumotlarni uzatish jarayonida ularni to’liq va to’g’ri uzatilishini nazorat qilish vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Transport sathi
+====
+Kanal sathi
+====
+Tarmoq sathi
+====
+Seanslar sathi
+++++
+
+Аloqa seansini hosil qilish, kuzatib turish va ohirigacha ta’minlab berish vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Seanslar sathi
+====
+Kanal sathi
+====
+Tarmoq sathi
+====
+Transport sathi
+++++
+
+Talab qilinadigan algoritmlar yordamida ma’lumotlarni kodlash va shifrlash vazifalarini OSI modelining qaysi sathi bajaradi?
+====
+#Taqdimlash sathi
+====
+Seanslar sathi
+====
+Tarmoq sathi
+====
+Transport sathi
+++++
+
+OSI modeliningamaliy sathi qanday funktsiyalarni bajaradi?
+====
+#Klient dasturlari bilan o’zaro muloqotda bo’lish
+====
+Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+====
+Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+====
+Эlektr signallariniuzatish va qabul qilish
+++++
+
+Keltirilgan protokollarning qaysilari kanal sathi protokollariga mansub?
+====
+#Ethernet, FDDI
+====
+NFS, FTP
+====
+IP, IPX
+====
+TCP,UDP
+++++
+
+Keltirilgan protokollarning qaysilari fizik sath protokollariga mansub?
+====
+#10Base-T, 100Base-TX
+====
+TCP,UDP
+====
+IP, IPX
+====
+NFS, FTP
+++++
+
+Keltirilgan protokollarning qaysilari taqdimlash sathi protokollariga mansub?
+====
+#SNMP, Telnet
+====
+IP, IPX
+====
+Ethernet, FDDI
+====
+TCP,UDP
+++++
+
+Keltirilgan protokollarning qaysilari saenslar sathi protokollariga mansub?
+====
+#RPC, WSP
+====
+NFS, FTP
+====
+IP, IPX
+====
+TCP,UDP
+++++
+
+Kompyuter bilan tashqi qurilma o’rtasida ma’lumotlarni uzatish paytida ularni to’gri uzatilganligi qanday tekshiriladi?
+====
+#paritet biti asosida
+====
+stop biti asosida
+====
+kontrol summani sanash bilan
+====
+paketni uzunligini sanash bilan
+++++
+
+Kompyuterdan tashqi qurilmaga ma’lumotlarni asinxron rejimda uzatayotganda bitta simvolga to’g’ri keladigan paketning uzunligi qanday bo’ladi?
+====
+#11 bit
+====
+12 bit
+====
+16 bit
+====
+18 bit
+++++
+
+Keltirilgan qurilmalarning qaysi biri DCE bo’ladi?
+====
+#modem
+====
+marshrutizator
+====
+kompyuter
+====
+klaviatura
+++++
+
+Keltirilgan qurilmalarning qaysi biri DTE bo’ladi?
+====
+kompyuter va marshrutizator
+====
+modem
+====
+#kompyuter va marshrutizator
+====
+aloqa chiziqlari
+++++
+
+Keltirilgan tafsiflarning qaysilari, ham aloqa chiziqlariga, ham ma’lumotlarni uzatish usullariga tegishli tavsiflar hisoblanadi?
+====
+#o’tkazish qobiliyati va ishonchliligi
+====
+amplituda-chastotali tavsif
+====
+o’tkazuvchanlik chegaralari
+====
+xatoliklar sodir bo’lish extimolligining kamaishi
+++++
+
+UTP kabeli deganda qaysi kabel tushuniladi?
+====
+#o’ralma juftlik kabeli
+====
+yo’g’on koaksial kabel
+====
+ingichka koaksial kabel
+====
+optik tolali kabel
+++++
+
+Modem qanday asosiy vazifani bajaradi?
+====
+#Signallarni modulyatsiyalash - demodulyatsiyalash
+====
+parallel kodni ketma-ket kodga o’zgartirish
+====
+skrэmbrlash va deskrэmbrlash
+====
+analog signallarni raqamli kodga o’zgartirish
+++++
+
+Keltirilgan standartlarning qaysi biri axborotni 57600 bit/s tezlikda qabul qiladi va uzata oladi?
+====
+#V.92
+====
+V.90
+====
+V.30
+====
+V.40
+++++
+
+Аnalog signallarni diskret modulyatsiyalash nimaga asoslanadi?
+====
+#Naykvist-Kotelnikovlarning akslanish nazariyasiga
+====
+Boltsman nazariyasiga
+====
+Shennon nazariyasiga
+====
+Flin nazariyasiga
+++++
+
+Kodlarning qaysi biri kuchlanishning to’rtta sathidan foydalanadi?
+====
+#2V1Q
+====
+AMI
+====
+NRZ
+====
+NRZI
+++++
+
+Kompyuterdan modemga ma’lumotlarni uzatish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?
+====
+#TXD
+====
+RXD
+====
+RTS
+====
+CTS
+++++
+
+Modemdan kompyuterga ma’lumotlarni qabul qilish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?
+====
+#RXD
+====
+TXD
+====
+RTS
+====
+CTS
+++++
+
+DCE qaysi signal orqali aloqa o’rnatilganligi haqidagi xabarni beradi?
+====
+DSR
+====
+CTS
+====
+#DCD
+====
+DTR
+++++
+
+Kompyuter bilan tashqi qurilma o’rtasidagi interfeys ishi qanday amalga oshirilgan?
+====
+#kontroller va drayver yordamida
+====
+drayver yordamida
+====
+kontroller yordamida
+====
+markaziy protsessor yordamida
+++++
+
+Keltirilgan modulyatsiyalarning qaysi biri analog modulyatsiyaga mansub?
+====
+#chastotali
+====
+amplituda-impulsli
+====
+kodli-impulsli
+====
+vaqt-impulsli
+++++
+
+Keltirilgan modulyatsiyalarning qaysi biri diskret modulyatsiyaga mansub?
+====
+#amplituda-impulsli
+====
+chastotali
+====
+amplitudali
+====
+fazali
+++++
+
+Internet tarmog’ida kommutatsiyalashning qaysi xili ishlatiladi?
+====
+#paketlarni kommutatsiyalash
+====
+kanallarni kommutatsiyalash
+====
+xabarlarni kommutatsiyalash
+====
+alohida ajratilgan kanallarni kommutatsiyalash
+++++
+
+IP-manzili qanday maydonlardan iborat?
+====
+#Tarmoq manzilining maydoni, bog’lash manzilining maydoni
+====
+Operator manzilining maydoni, bog’lash manzilining maydoni
+====
+Tarmoq manzilining maydoni, MАC manzilining maydoni
+====
+Tarmoq manzilining maydoni, tarmoqosti tarmoq manzilining maydoni
+++++
+
+Kompyuter tarmog’ining aktiv qurilmalari tarkibiga qaysi qurilmalar kiradi?
+====
+#Tarmoq adapteri,kontsentrator
+====
+Kross-panel, montaj shkafi
+====
+Tarmoq kabeli,RJ-45 rozetkasi
+====
+Marshrutizator, kross-panel
+++++
+
+Kompyuter tarmog’ining passiv qurilmalari tarkibiga qaysi qurilmalar kiradi?
+====
+#Tarmoq kabeli, RJ-45 rozetkasi
+====
+Kommutator, montaj shkafi
+====
+Tarmoq adapteri,kontsentrator
+====
+Kontsentrator, kross-panel
+++++
+
+Ovozni sifatli uzatish uchun tovushli tebranishlar amplitudasini kvantlashda qanday chastota ishlatiladi?
+====
+#8000 Gts
+====
+300 Gts
+====
+6400 Gts
+====
+3400 Gts
+++++
+
+Raqamli telefon tarmoqlarida 64 Kbit/s o’tkazuvchanlik qobiliyati nimaga asosan tanlab oligan?
+====
+#Kotelnikov-Naykvist teoremasi asosida
+====
+Fure qatori asosida
+====
+Bayes qonuni asosida
+====
+Bartlet mezoni asosida
+++++
+
+ MАC-adres qanday uzunlikka ega?
+====
+#48 bit
+====
+32 bit
+====
+16 bit
+====
+64 bit
+++++
+
+IPv4 turidagi IP-adres qanday uzunlikka ega?
+====
+#32 bit
+====
+16 bit
+====
+48 bit
+====
+64 bit
+++++
+
+192.190.21.254 adresi IP-adreslarning qaysi sinfiga tegishli?
+====
+#C
+====
+B
+====
+А
+====
+D
+++++
+
+ B sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?
+====
+#65536
+====
+256
+====
+512
+====
+1024
+++++
+
+А sinfidagi tarmoq tarkibida nechta bog’lam bo’lishi mumkin?
+====
+#16777216
+====
+256
+====
+65536
+====
+1024
+++++
+
+B sinfidagi tarmoq maskasi qanday qiymatga ega?
+====
+#255.255.0.0
+====
+255.0.0.0
+====
+255.255.255.0
+====
+255.255.254.0
+++++
+
+DTE qaysi signal yordamida o’zini ishlayotganligini va DCE aloqa kanaliga ulanishi mumkinligi haqidagi xabarni beradi?
+====
+DCD
+====
+DSR
+====
+CTS
+====
+#DTR
+++++
+
+Kabel standartlarining qaysi biri EIA/TIA-568A abbreviaturasiga ega?
+====
+#Аmerika standarti
+====
+xalqaro standart
+====
+evropa standarti
+====
+IBM kompaniyasi standarti
+++++
+
+RS-232C/V.24 interfeysida ulagichning qaysi modifikatsiyasi ishlatilgan?
+====
+#9 va 25 ta ulanish nuqtalariga ega bo’lgani
+====
+15 va 30 ta ulanish nuqtalariga ega bo’lgani
+====
+10 va 25 ta ulanish nuqtalariga ega bo’lgani
+====
+12 va 24 ta ulanish nuqtalariga ega bo’lgani
+++++
+
+DTE va aloqa kanali o’rtasida uzatilayotgan signallarni o’zaro moslab uzatish qanday amalga oshiriladi?
+====
+#modulyatsiyalash va kodlash bilan
+====
+modulyatsiyalash bilan
+====
+kodlash bilan
+====
+shifrlash va deshifrlash Bilan
+++++
+
+Kompyuter tarmoqlarida ma’lumotlarni uzatishda, kodlash deganda nima tushuniladi?
+====
+ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish
+====
+ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish
+====
+#simvollarning kompyuterdagi kodlarini, aloqa kanallari orqali uzatiladigan kodlarga o’zgartirish
+====
+signalni aloqa kanali chastotasiga o’tkazish
+++++
+
+Modulyatsiyalashning diskret xili nimaga asoslangan?
+====
+#signallarni ham amplitudasi, ham vaqt bo’yicha diskretlash
+====
+signallarni vaqt bo’yicha diskretlash
+====
+signallarni amplitudasi bo’yicha diskretlash
+====
+signallarni vaqt bo’yicha kvantlash
+++++
+
+Tarmoq orqali uzluksiz signalni raqamli ko’rinishda uzatilayotganda vaqt oralig’ining qanday qiymatini e’tibor bilan saqlab turish kerak?
+====
+#125 mks
+====
+200 mks
+====
+100 mks
+====
+150 mks
+++++
+
+C sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?
+====
+#256
+====
+65536
+====
+512
+====
+1024
+++++
+
+А sinfidagi tarmoq maskasi qanday qiymatga ega?
+====
+#255.0.0.0
+====
+255.255.0.0
+====
+255.255.255.0
+====
+255.0.0
+++++
+
+C sinfidagi tarmoq maskasi qanday qiymatga ega?
+====
+#255.255.255.0
+====
+255.0.0.0
+====
+255.255.0.0
+====
+255.255.240.0
+++++
+
+512 ta bog’lamli tarmoqosti tarmoq maskasi qanday qiymatga ega?
+====
+#255.255.254.0
+====
+255.255.0.0
+====
+255.255.255.0
+====
+255.255.240.0
+++++
+
+Internet tarmog’i, kompyuter tarmoqlarining qaysi sinfiga mansub?
+====
+#global tarmoq
+====
+lokal tarmoq
+====
+shahar tarmog’i
+====
+korporativ tarmog’i
+++++
+
+ Keltirilgan texnologiyalarning qaysi birlari global tarmoq texnologiyalariga mansub?
+====
+#ATM, TCP/IP
+====
+X.25, FDDI
+====
+Frame Relay, Token Ring
+====
+Ethernet, Internet
+++++
+
+MAN tarmoqlari nima uchun mo’ljallangan?
+====
+#Yirik shaxar axolisiga xizmat ko’rsatish uchun
+====
+Internetga korxonalar tarmoqlarini ulash uchun
+====
+Faqat bir nechta lokal tarmoqlarni bog’lash uchun
+====
+Faqat korporativ tarmoqning filiallarini ulash uchun
+++++
+
+Qaysi global tarmoqlarda paketlarni marshrutlashning har-xilidan foydalanilgan?
+====
+Frame relay va АTM
+====
+Frame relay va TCP/IP
+====
+АTM va  X.25
+====
+#Frame relay va X.25
+++++
+
+Xizmatlarni boshqarish markazlarida qanday axborotlar saqlanadi?
+====
+#Foydalanuvchilar uchun mo’ljallangan axborot, xizmat ko’rsatish uchun mo’ljallangan axborot
+====
+Foydalanuvchilarning barchasiga yuborilishi kerak bo’lgan axborot
+====
+Maxfiy axborot
+====
+Yangiliklar
+++++
+
+Аloqa kanallari orqali ko’p sonli foydalanuvchilarning qurilmalaridan kelayotgan axborot oqimlarini yig’ib berish vazifasini qanday tarmoq bajaradi?
+====
+#Ulanish tarmog’i
+====
+Magistral tarmoq
+====
+Korporativ tarmoq
+====
+Kampus tarmog’i
+++++
+
+Ulanish tarmoqlarini bog’lashni va yuqori tezlikdagi kanallar orqali trafik tranzitini ta’minlashni, qaysi tarmoq amalga oshiradi?
+====
+#Magistral tarmoq
+====
+Аloqa operatorlari tarmog’i
+====
+Korporativ tarmoq
+====
+Bino tarmog’i
+++++
+
+IPv6 turidagi IP-adres qanday uzunlikka ega?
+====
+#128 bit
+====
+32 bit
+====
+48 bit
+====
+64 bit
+++++
+
+Masofa-vektorli marshrutlash protokollari qaysi javobda to'g'ri keltirilgan?
+====
+#RIP, IGRP, EIGRP
+====
+OSPF, IGRP, EIGRP
+====
+RIP, OSPF
+====
+OSPF
+++++
+
+Marshrutlashning tashqi shlyuz protokollari qaysi javobda to'g'ri keltirilgan?
+====
+#Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)
+====
+Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)
+====
+Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)
+====
+Interior Gateway Protocol  (IGP)
+++++
+
+Marshrutlashning ichki shlyuz protokollari qaysi javobda to'g'ri keltirilgan?
+====
+#Interior Gateway Protocol  (IGP)
+====
+Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)
+====
+Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)
+====
+Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)
+++++
+
+Simli tarmoq standarti qaysi javobda to’g’ri ko’rsatilgan?
+====
+#IEEE 802.3; 
+====
+IEEE 802.1; 
+==== 
+IEEE 802.2;
+==== 
+IEEE 802.5;
+++++
+
+IEEE 802.3u standartining maksimal o’tkazish tezligi qanday?
+====
+ #100 Mbit/s; 
+==== 
+1000 Mbit/s; 
+==== 
+10 Gbit/s; 
+==== 
+1 Gbit/s;
+++++
+
+IEEE 802.3 ab standartining maksimal o’tkazish tezligi qanday?
+====
+ #1000 Mbit/s; 
+==== 
+100 Mbit/s; 
+==== 
+10 Gbit/s; 
+==== 
+1 Gbit/s;
+++++
+
+IEEE 802.3 an standartining maksimal o’tkazish tezligi qanday?
+====
+#10 Gbit/s; 
+==== 
+100 Mbit/s; 
+==== 
+1000 Mbit/s; 
+==== 
+1 Gbit/s;
+++++
+
+Simli tarmoqning umumiy o'tkazuvchanligi qanchagacha yetishi mumkin:
+====
+# 2000 Mbit/s; 
+==== 
+1000 Mbit/s; 
+==== 
+10 Gbit/s; 
+==== 
+1 Gbit/s; 
+++++
+
+5-kategoriyali o’rama juft kabeli qancha masofagacha samarali ishlay oladi?
+====
+ #100 m.; 
+==== 
+200 m.; 
+==== 
+300 m.; 
+==== 
+400 m.
+++++
+
+5e-kategoriyali o’rama juft kabeli o’tkazish qobiliyati qancha?
+====
+# 2 ta juftdan foydalanilganda 100 Mbit/s gacha va 4 ta juftdan foydalanilganda 1 Gbit/s gacha;
+==== 
+100 Mbit/s gacha;
+==== 
+4 ta juftdan foydalanilganda 1 Gbit/s gacha va kabel uzunligi 55 metrdan oshmaganda 10 Gbit/s gacha;
+==== 
+2 ta juftdan foydalanilganda 1 Gbit/s gacha;
+++++
+
+6-kategoriyali o’rama juft kabelining o’tkazish qobilati qancha?
+====
+ #250 MHz; 
+==== 
+125 MHz; 
+==== 
+500 MHz; 
+==== 
+100 MHz.
+++++
+
+802.11 ac standartining maksimal o’tkazish tezligi qancha?
+====
+# 6,77 Gbit/s; 
+==== 
+1000 Mbit/s; 
+==== 
+54 Mbit/s; 
+==== 
+600 Mbit/s
+++++
+
+802.11g standartining maksimal o’tkazish tezligi qancha?
+====
+# 54 Mbit/s; 
+==== 
+1000 Mbit/s; 
+==== 
+55 Mbit/s; 
+==== 
+600 Mbit/s
+++++
+
+Tarmoq arxitekturasi – bu…?
+====
+ #topologiyalar, ma’lumot uzatish muhitiga kirish usullari va protokollarining kombinatsiyasi;
+==== 
+ma'lumotlarni uzatish muhiti va protokollariga kirish usullari;
+==== 
+topologiyalar kombinatsiyasi, ma'lumotlarni uzatish muhitiga kirish usullari;
+==== 
+ma'lumotlarni uzatish tarmog'ining amalga oshirilgan tuzilmasi, uning topologiyasi, qurilmalar tarkibi va ularning tarmoqdagi o'zaro ta'siri qoidalari;
+++++
+
+Tarmoq elementi – bu…?
+====
+ bir yoki bir nechta jismoniy qurilmalarni birlashtirgan boshqariladigan mantiqiy ob'ekt;
+==== 
+bitta qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;
+==== 
+#bitta qurilmani birlashtirgan boshqariladigan jismoniy ob'ekt;
+==== 
+bitta jismoniy qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;
+++++
+
+Tengdosh arxitekturasi (peer-to-peer architecture) axborot tarmog'i kontseptsiyasi bo'lib …
+====
+# uning resurslari barcha tizimlar bo'ylab taqsimlangan;
+==== 
+unda barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladi;
+==== 
+uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan
+==== 
+uning resurslari Internetda joylashgan.
+++++
+
+Mijoz-server arxitekturasi axborot tarmog'ining kontseptsiyasi bo'lib, …
+====
+# uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;
+==== 
+uning resurslari barcha tizimlar bo'ylab taqsimlangan;
+==== 
+uning resurslari Internetda joylashgan;
+==== 
+uning resurslari barcha tizimlar bo'ylab taqsimlangan;
+++++
+
+Terminal arxitekturasi – asosiy kompyuter (terminal – host computer architecture) - axborot tarmog'i kontseptsiyasi bo'lib, …
+====
+ uning resurslari barcha tizimlar bo'ylab taqsimlangan;
+==== 
+#uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;
+==== 
+uning resurslari barcha tizimlar bo'ylab taqsimlangan;
+==== 
+uning resurslari Internetda joylashgan;
+++++
+
+Barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladigan arxitektura?
+====
+# texminal xost;
+==== 
+mijoz-server;
+==== 
+tengdosh;
+==== 
+fayl-server;
+++++
+
+Resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan arxitektura?
+====
+# mijoz-server;
+==== 
+texminal xost;
+==== 
+tengdosh;
+==== 
+fayl-server;
+++++
+
+Resurslari barcha tizimlar bo'ylab taqsimlangan arxitektura?
+====
+# tengdosh;
+==== 
+texminal xost;
+==== 
+mijoz-server;
+==== 
+fayl-server;
+++++
+
+Protokollar steki bu:
+====
+# o'zaro bog'lanishni tashkil etish uchun etarli bo'lgan turli darajadagi kelishilgan protokollar to'plami;
+==== 
+o'zaro ishlash uchun etarli bo'lgan bir qatlamli protokollarning kelishilgan to'plami;
+==== 
+o'zaro ishlash uchun etarli bo'lgan ikki qatlamli protokollarning kelishilgan to'plami;
+==== 
+o'zaro ishlashni tashkil qilish uchun etarli bo'lgan uchta qatlamli kelishilgan protokollar to'plami;
+++++
+
+Interfeys bu:
+====
+ #funksiya-so'rovlar to'plami;
+==== 
+protseduralar majmui;
+==== 
+protokollar to'plami;
+==== 
+dasturiy ta'minot to'plami;
+++++
+
+TCP/IP protokollar steki nechta pog’onadan iborat?
+====
+# 4 ta;  
+==== 
+3 ta;  
+==== 
+7 ta; 
+==== 
+6 ta;
+
+TCP/IP protokollar stekining birinchi pog’onasi:
+====
+# tarmoq interfeyslari; 
+==== 
+tarmoq;  
+==== 
+transport;  
+==== 
+amaliy
+++++
+
+TCP/IP protokollar stekining ikkinchi pog’onasi:
+====
+# tarmoq; 
+==== 
+tarmoq interfeyslari; 
+==== 
+transport;  
+==== 
+amaliy
+++++
+
+TCP/IP protokollar stekining uchunchi pog’onasi:
+====
+# transport; 
+==== 
+tarmoq interfeyslari;  
+==== 
+tarmoq;  
+==== 
+amaliy
+++++
+
+TCP/IP protokollar stekining to’rtinchi pog’onasi:
+====
+# amaliy; 
+==== 
+tarmoq interfeyslari;  
+==== 
+tarmoq;  
+==== 
+transport
+++++
+
+Tarmoq pog’onasining asosiy vazifasi nima?
+====
+# ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;
+==== 
+amaliy dasturlar bilan ishlash;
+==== 
+ma’lumotlarni ishonchli yetkazib berish;
+==== 
+ma’lumotlarni tarmoq bo’ylab harakatlantirish.
+++++
+
+Transport pog’onasining asosiy vazifasi nima?
+====
+ #ma’lumotlarni ishonchli yetkazib berish;
+==== 
+ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;
+==== 
+amaliy dasturlar bilan ishlash;
+==== 
+ma’lumotlarni tarmoq bo’ylab harakatlantirish.
+++++
+
+Transport pog’onasi protokollari:
+====
+# tcp, udp;  
+==== 
+ip, tcp;  
+==== 
+http, https, ftp;  
+==== 
+ip, icmp;
+++++
+
+Tarmoq pog’onasi OSI modelining qaysi pog’onasiga mos keladi?
+====
+# 3; 	
+==== 
+2;	
+==== 
+4;	
+==== 
+7;
+++++
+
+Tarmoq pog’onasi TCP/IP protokollar stekining qaysi pog’onasiga mos keladi?
+====
+ 
+#2; 
+==== 
+3; 
+==== 
+4; 
+==== 
+1.
+++++
+
+Tarmoq pog’onasining vazifasi nima?
+====
+# jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish uchun marshrutni ishlab chiqish;
+==== 
+jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish;
+==== 
+aloqa seansini o’rnatish;
+==== 
+transport pog’onasi va amaliy jarayonlar o’rtasidagi interfeys. 
+++++
+
+Marshrutlash bu:
+====
+# bu tarmoq trafigini yuborish uchun qaysi yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;
+==== 
+paketlarni qabul qiluvchiga yetkazib berish;
+==== 
+yuboruvchi va qbul qiluvchi uchun oldindan aloqa kanalini band qilish;
+==== 
+ma’lumotni tarmoq bo’ylab harakatlantirish;
+++++
+
+Tarmoq pog’onasida ma’lumotlarni marshrutlash uchun qanday qurilmalardan foydalaniladi?
+====
+# router, L3 switch; 
+==== 
+router, L2 switch; 
+==== 
+L2 switch; 
+==== 
+hub, switch, NIC.
+++++
+
+Tarmoq pog’onasi protokollari qaysi javobda to’g’ri ko’rsatilgan?
+====
+# IP, ICMP;  
+==== 
+TCP, IP;  
+==== 
+FTP, HTTP; 
+==== 
+TCP, UDP.
+++++
+
+Marshrutlashning masofa vektor protokollari qaysi javobda tog’ri ko’rsatilgan?
+====
+# RIP, IGP, EIGP; 
+==== 
+OSPF, RIP; 
+==== 
+OSPF, IS-IS; 
+==== 
+IGP, EIGP, IS-IS.
+++++
+
+Marshrutlashning aloqa holati protokollari qaysi javobda tog’ri ko’rsatilgan?
+====
+# OSPF, IS-IS; 
+==== 
+OSPF, RIP; 
+==== 
+RIP, IGP, EIGP; 
+==== 
+IGP, EIGP, IS-IS.
+++++
+
+Marshrutlash – bu: 
+====
+# tarmoq trafigini yuborish uchun qisqa yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;
+==== 
+paket uchun eng uzoq yo’lni tanlash;
+==== 
+paketlarni bo’laklash;
+==== 
+paketni qabul qilish.
+++++
+
+IP protokoli qachon ishlab chiqilgan?
+====
+# 1981 yil; 
+==== 
+1983 yil; 
+==== 
+1985 yil; 
+==== 
+1987 yil;
+++++
+
+Identifikator – bu …?
+====
+# paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+==== 
+ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;
+==== 
+paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+==== 
+paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+++++
+
+Bo’laklarni ko’chirish – bu…?
+====
+# ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;
+==== 
+paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+==== 
+paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+==== 
+paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;
+++++
+
+Sarlavhaning nazorat summasi - … bo’yicha hisoblanadi?
+====
+# RFC 1071; 
+==== 
+RFC 1072; 
+==== 
+RFC 1073; 
+==== 
+RFC 1075;
+++++
+
+Marshrutizatorlar paketga qanday o’zgartirish kirita oladi?
+====
+# paketlarni fragmentlash; 
+==== 
+paketlarni yig’ish;
+==== 
+paketlarni formatlash; 
+==== 
+paketlarni segmentlash;
+++++
+
+Paket ma'lumotlarini bo'lishda oxirgisidan tashqari barcha bo'laklarning o'lchami … karrali bo’lishi kerak:
+====
+# 8 baytga; 
+==== 
+16 baytga; 
+==== 
+24 baytga; 
+==== 
+32 baytga;
+++++
+
+0 dan boshlanuvchi adreslar qaysi sinfga xos?
+====
+ #A sinf; 
+==== 
+B sinf; 
+==== 
+C sinf; 
+==== 
+D sinf;
+++++
+
+10 dan boshlanuvchi adreslar qaysi sinfga xos?
+====
+# B sinf; 
+==== 
+A sinf; 
+==== 
+C sinf; 
+==== 
+D sinf;
+++++
+
+110 dan boshlanuvchi adreslar qaysi sinfga xos?
+====
+# C sinf; 
+==== 
+B sinf; 
+==== 
+E sinf; 
+==== 
+D sinf;
+++++
+
+1110 dan boshlanuvchi adreslar qaysi sinfga xos?
+====
+# D sinf; 
+==== 
+B sinf; 
+==== 
+C sinf; 
+==== 
+E sinf;
+++++
+
+11110 dan boshlanuvchi adreslar qaysi sinfga xos?
+====
+ #E sinf; 
+==== 
+B sinf; 
+==== 
+C sinf; 
+==== 
+D sinf;
+++++
+
+GSM mobil aloqaning qaysi avlodiga tegishli?
+====
+# 2G;
+==== 
+1G;
+==== 
+3G;
+==== 
+4G.
+++++
+
+3G da kanallar taqsimlanishining qanday turidan foydalaniladi?
+====
+ #Kod bo'yicha
+==== 
+Chastota-vaqt bo'yicha
+==== 
+Chastota bo'yicha
+==== 
+Vaqt bo'yicha
+++++
+
+Mobil aloqada uyaning ideal shakli qanday tasvirlanadi?
+====
+# Oltiburchak
+==== 
+Romb
+==== 
+Kvadrat
+==== 
+To'rtburchak
+++++
+
+LTE - bu?
+====
+# Long Term Evolution
+==== 
+Listing Time Ebay
+==== 
+London Tests of English
+==== 
+Liquid Tension Experiment
+++++
+
+WiFi standartida qanday chastota diapazonlaridan foydalaniladi
+====
+# 2.4 va 5 GHz
+==== 
+2.4 - 5 GHz oralig'ida
+==== 
+2.4 - 2.5 GHz oralig'ida
+==== 
+2.5 va 5 GHz
+++++
